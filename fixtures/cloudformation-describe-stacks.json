@@ -1,0 +1,61 @@
+{
+  "Stacks": [
+    {
+      "StackId": "arn:aws:cloudformation:us-east-1:164406550669:stack/portals-fe-int2-es/16cc8000-f0f7-11e9-85d9-1230a5204572",
+      "StackName": "portals-fe-int2-es",
+      "Description": "Elasticsearch Stack (v1.3)",
+      "CreationTime": "2019-10-17 15:59:24.216000+00:00",
+      "RollbackConfiguration": {},
+      "StackStatus": "CREATE_COMPLETE",
+      "DisableRollback": true,
+      "NotificationARNs": [],
+      "Capabilities": [
+        "CAPABILITY_IAM",
+        "CAPABILITY_NAMED_IAM"
+      ],
+      "Outputs": [
+        {
+          "OutputKey": "DomainEndpoint",
+          "OutputValue": "vpc-portals-fe-int2-es-gn367jgkokmamzpvla6hwdhmny.us-east-1.es.amazonaws.com",
+          "Description": "The domain-specific endpoint that is used to submit index, search, and data upload requests to an Amazon ES domain"
+        },
+        {
+          "OutputKey": "DomainName",
+          "OutputValue": "portals-fe-int2-es",
+          "Description": "The name of the domain"
+        },
+        {
+          "OutputKey": "DomainArn",
+          "OutputValue": "arn:aws:es:us-east-1:164406550669:domain/portals-fe-int2-es",
+          "Description": "The Amazon Resource Name (ARN) of the domain"
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "app",
+          "Value": "portals"
+        },
+        {
+          "Key": "env",
+          "Value": "int2"
+        }
+      ],
+      "EnableTerminationProtection": false,
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "76c1598b-8759-494a-952f-2eeb2d7581f5",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "76c1598b-8759-494a-952f-2eeb2d7581f5",
+      "content-type": "text/xml",
+      "content-length": "2218",
+      "vary": "accept-encoding",
+      "date": "Thu, 24 Oct 2019 21:13:34 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}

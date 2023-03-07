@@ -1,0 +1,54 @@
+{
+  "version": "0",
+  "id": "91076974",
+  "detail-type": "AWS API Call via CloudTrail",
+  "source": "aws.cloudformation",
+  "account": "637136814736",
+  "time": "2019-10-23T04:31:10Z",
+  "region": "us-east-1",
+  "resources": [],
+  "detail": {
+    "eventVersion": "1.05",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAJQJWIVK5C7J3SEYOQ",
+        "arn": "arn:aws:iam::637136814736:user/ci_integration",
+        "accountId": "637136814736",
+        "accessKeyId": "AKIAZIWCQIKIHMFIR5HH",
+        "userName": "ci_integration"
+    },
+    "eventTime": "2019-10-23T20:31:10Z",
+    "eventSource": "cloudformation.amazonaws.com",
+    "eventName": "CreateStack",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "52.1.148.190",
+    "userAgent": "Boto3/1.9.13 Python/3.6.8 Linux/4.14.128-87.105.amzn1.x86_64 Botocore/1.12.13 Ansible/2.6.4",
+    "requestParameters": {
+        "notificationARNs": [],
+        "capabilities": [
+            "CAPABILITY_IAM",
+            "CAPABILITY_NAMED_IAM"
+        ],
+        "parameters": [],
+        "tags": [
+            {
+                "value": "portals",
+                "key": "app"
+            },
+            {
+                "value": "pprd",
+                "key": "env"
+            }
+        ],
+        "disableRollback": true,
+        "stackName": "portals-fe-pprd-es"
+    },
+    "responseElements": {
+        "stackId": "arn:aws:cloudformation:us-east-1:637136814736:stack/portals-fe-pprd-es/0c677750-f5d4-11e9-80a7-0e03eb938c18"
+    },
+    "requestID": "ce2a6cdc-3f4f-4e83-b9dc-eb15e45b8d02",
+    "eventID": "7b145b8f-67d8-4a75-a64d-8b0e50dedd2c",
+    "eventType": "AwsApiCall",
+    "recipientAccountId": "637136814736"
+  }
+}
