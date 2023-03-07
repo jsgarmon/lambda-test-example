@@ -18,7 +18,7 @@ list_buckets = {
     },
     "Buckets": [
         {
-            "Name": "164406550669-us-east-1-chromeless",
+            "Name": "16xxxxxxxxx9-us-east-1-chromeless",
             "CreationDate": datetime.datetime(2018, 5, 22, 18, 41, 35, tzinfo=tzutc()),
         },
         {
@@ -46,15 +46,15 @@ list_buckets = {
             "CreationDate": datetime.datetime(2016, 12, 22, 16, 29, 19, tzinfo=tzutc()),
         },
         {
-            "Name": "aws-athena-query-results-164406550669-us-east-1",
+            "Name": "aws-athena-query-results-16xxxxxxxxx9-us-east-1",
             "CreationDate": datetime.datetime(2016, 12, 14, 15, 56, 7, tzinfo=tzutc()),
         },
         {
-            "Name": "aws-glue-scripts-164406550669-us-east-1",
+            "Name": "aws-glue-scripts-16xxxxxxxxx9-us-east-1",
             "CreationDate": datetime.datetime(2018, 6, 8, 1, 0, 8, tzinfo=tzutc()),
         },
         {
-            "Name": "aws-logs-164406550669-us-east-1",
+            "Name": "aws-logs-16xxxxxxxxx9-us-east-1",
             "CreationDate": datetime.datetime(2016, 4, 5, 21, 14, 14, tzinfo=tzutc()),
         },
     ],
@@ -78,7 +78,7 @@ lookup_events = {
                     "ResourceName": "portals-int99-sync-useruploads",
                 }
             ],
-            "CloudTrailEvent": '{"eventVersion":"1.05","userIdentity":{"type":"IAMUser","principalId":"AIDAJHZ7G2","arn":"arn:aws:iam::164406550669:user/ci_integration","accountId":"164406550669","accessKeyId":"ASIAJ2HPQ","userName":"ci_integration","sessionContext":{"attributes":{"mfaAuthenticated":"false","creationDate":"2019-08-28T21:23:02Z"}},"invokedBy":"cloudformation.amazonaws.com"},"eventTime":"2019-08-28T21:23:04Z","eventSource":"s3.amazonaws.com","eventName":"DeleteBucket","awsRegion":"us-east-1","sourceIPAddress":"cloudformation.amazonaws.com","userAgent":"cloudformation.amazonaws.com","requestParameters":{"host":["portals-int99-sync-useruploads.s3.amazonaws.com"],"bucketName":"portals-int99-sync-useruploads"},"responseElements":null,"additionalEventData":{"SignatureVersion":"SigV4","CipherSuite":"ECDHE-RSA-AES128-SHA","AuthenticationMethod":"AuthHeader","vpcEndpointId":"vpce-00dc1369"},"requestID":"60DFD05","eventID":"3269819c","eventType":"AwsApiCall","recipientAccountId":"164406550669","vpcEndpointId":"vpce-00dc1369"}',
+            "CloudTrailEvent": '{"eventVersion":"1.05","userIdentity":{"type":"IAMUser","principalId":"AIDAJHZ7G2","arn":"arn:aws:iam::16xxxxxxxxx9:user/ci_integration","accountId":"16xxxxxxxxx9","accessKeyId":"ASIAJ2HPQ","userName":"ci_integration","sessionContext":{"attributes":{"mfaAuthenticated":"false","creationDate":"2019-08-28T21:23:02Z"}},"invokedBy":"cloudformation.amazonaws.com"},"eventTime":"2019-08-28T21:23:04Z","eventSource":"s3.amazonaws.com","eventName":"DeleteBucket","awsRegion":"us-east-1","sourceIPAddress":"cloudformation.amazonaws.com","userAgent":"cloudformation.amazonaws.com","requestParameters":{"host":["portals-int99-sync-useruploads.s3.amazonaws.com"],"bucketName":"portals-int99-sync-useruploads"},"responseElements":null,"additionalEventData":{"SignatureVersion":"SigV4","CipherSuite":"ECDHE-RSA-AES128-SHA","AuthenticationMethod":"AuthHeader","vpcEndpointId":"vpce-00dc1369"},"requestID":"60DFD05","eventID":"3269819c","eventType":"AwsApiCall","recipientAccountId":"16xxxxxxxxx9","vpcEndpointId":"vpce-00dc1369"}',
         },
         {
             "EventId": "1f16b5a7",
@@ -94,7 +94,7 @@ lookup_events = {
                     "ResourceName": "portals-int99-sync-useruploads",
                 }
             ],
-            "CloudTrailEvent": '{"eventVersion":"1.05","userIdentity":{"type":"IAMUser","principalId":"AIDAJHZ7G2","arn":"arn:aws:iam::164406550669:user/ci_integration","accountId":"164406550669","accessKeyId":"ASIAJ2HPQ","userName":"ci_integration","sessionContext":{"attributes":{"mfaAuthenticated":"false","creationDate":"2019-08-28T21:23:02Z"}},"invokedBy":"cloudformation.amazonaws.com"},"eventTime":"2019-08-28T21:23:04Z","eventSource":"s3.amazonaws.com","eventName":"CreateBucket","awsRegion":"us-east-1","sourceIPAddress":"cloudformation.amazonaws.com","userAgent":"cloudformation.amazonaws.com","requestParameters":{"host":["portals-int99-sync-useruploads.s3.amazonaws.com"],"bucketName":"portals-int99-sync-useruploads"},"responseElements":null,"additionalEventData":{"SignatureVersion":"SigV4","CipherSuite":"ECDHE-RSA-AES128-SHA","AuthenticationMethod":"AuthHeader","vpcEndpointId":"vpce-00dc1369"},"requestID":"60DFD05","eventID":"3269819c","eventType":"AwsApiCall","recipientAccountId":"164406550669","vpcEndpointId":"vpce-00dc1369"}',
+            "CloudTrailEvent": '{"eventVersion":"1.05","userIdentity":{"type":"IAMUser","principalId":"AIDAJHZ7G2","arn":"arn:aws:iam::16xxxxxxxxx9:user/ci_integration","accountId":"16xxxxxxxxx9","accessKeyId":"ASIAJ2HPQ","userName":"ci_integration","sessionContext":{"attributes":{"mfaAuthenticated":"false","creationDate":"2019-08-28T21:23:02Z"}},"invokedBy":"cloudformation.amazonaws.com"},"eventTime":"2019-08-28T21:23:04Z","eventSource":"s3.amazonaws.com","eventName":"CreateBucket","awsRegion":"us-east-1","sourceIPAddress":"cloudformation.amazonaws.com","userAgent":"cloudformation.amazonaws.com","requestParameters":{"host":["portals-int99-sync-useruploads.s3.amazonaws.com"],"bucketName":"portals-int99-sync-useruploads"},"responseElements":null,"additionalEventData":{"SignatureVersion":"SigV4","CipherSuite":"ECDHE-RSA-AES128-SHA","AuthenticationMethod":"AuthHeader","vpcEndpointId":"vpce-00dc1369"},"requestID":"60DFD05","eventID":"3269819c","eventType":"AwsApiCall","recipientAccountId":"16xxxxxxxxx9","vpcEndpointId":"vpce-00dc1369"}',
         },
     ],
     "ResponseMetadata": {
@@ -147,7 +147,7 @@ s3_event = {
     "id": "91076974",
     "detail-type": "AWS API Call via CloudTrail",
     "source": "aws.s3",
-    "account": "164406550669",
+    "account": "16xxxxxxxxx9",
     "time": "2019-09-09T02:59:40Z",
     "region": "us-east-1",
     "resources": [],
@@ -156,8 +156,8 @@ s3_event = {
         "userIdentity": {
             "type": "IAMUser",
             "principalId": "AIDASMR3E",
-            "arn": "arn:aws:iam::164406550669:user/fake_user",
-            "accountId": "164406550669",
+            "arn": "arn:aws:iam::16xxxxxxxxx9:user/fake_user",
+            "accountId": "16xxxxxxxxx9",
             "accessKeyId": "ASIASMR3E",
             "userName": "fake_user",
             "sessionContext": {
@@ -197,7 +197,7 @@ ec2_event = {
     "id": "a96fe4c3",
     "detail-type": "AWS API Call via CloudTrail",
     "source": "aws.ec2",
-    "account": "164406550669",
+    "account": "16xxxxxxxxx9",
     "time": "2019-09-11T20:40:53Z",
     "region": "us-east-1",
     "resources": [],
@@ -206,14 +206,14 @@ ec2_event = {
         "userIdentity": {
             "type": "AssumedRole",
             "principalId": "AROAJX7XB3F4JG24WCRCC:AutoScaling",
-            "arn": "arn:aws:sts::164406550669:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling",
-            "accountId": "164406550669",
+            "arn": "arn:aws:sts::16xxxxxxxxx9:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling",
+            "accountId": "16xxxxxxxxx9",
             "sessionContext": {
                 "sessionIssuer": {
                     "type": "Role",
                     "principalId": "AROAJX7XB",
-                    "arn": "arn:aws:iam::164406550669:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
-                    "accountId": "164406550669",
+                    "arn": "arn:aws:iam::16xxxxxxxxx9:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+                    "accountId": "16xxxxxxxxx9",
                     "userName": "AWSServiceRoleForAutoScaling",
                 },
                 "webIdFederationData": {},
@@ -279,7 +279,7 @@ ec2_event = {
         "responseElements": {
             "requestId": "85e201c7",
             "reservationId": "r-0f66579fe",
-            "ownerId": "164406550669",
+            "ownerId": "16xxxxxxxxx9",
             "groupSet": {},
             "instancesSet": {
                 "items": [
@@ -340,7 +340,7 @@ ec2_event = {
                                     "networkInterfaceId": "eni-0966aa108cd0381a7",
                                     "subnetId": "subnet-ad37e8c2",
                                     "vpcId": "vpc-bea761d1",
-                                    "ownerId": "164406550669",
+                                    "ownerId": "16xxxxxxxxx9",
                                     "status": "in-use",
                                     "macAddress": "12:ca:be:f7:d8:be",
                                     "privateIpAddress": "172.21.71.164",
@@ -377,7 +377,7 @@ ec2_event = {
                             ]
                         },
                         "iamInstanceProfile": {
-                            "arn": "arn:aws:iam::164406550669:instance-profile/dp-app-int-iam-DPInstanceProfile-66FFH5JYSPE2",
+                            "arn": "arn:aws:iam::16xxxxxxxxx9:instance-profile/dp-app-int-iam-DPInstanceProfile-66FFH5JYSPE2",
                             "id": "AIPAITTE6R7S462ARDGYQ",
                         },
                         "ebsOptimized": False,
@@ -402,7 +402,7 @@ rds_event = {
     "id": "7405fb31",
     "detail-type": "AWS API Call via CloudTrail",
     "source": "aws.rds",
-    "account": "164406550669",
+    "account": "16xxxxxxxxx9",
     "time": "2019-09-11T17:18:12Z",
     "region": "us-east-1",
     "resources": [],
@@ -411,8 +411,8 @@ rds_event = {
         "userIdentity": {
             "type": "IAMUser",
             "principalId": "AIDASMR",
-            "arn": "arn:aws:iam::164406550669:user/fake_user",
-            "accountId": "164406550669",
+            "arn": "arn:aws:iam::16xxxxxxxxx9:user/fake_user",
+            "accountId": "16xxxxxxxxx9",
             "accessKeyId": "ASIASMR",
             "userName": "fake_user",
             "sessionContext": {
@@ -518,10 +518,10 @@ rds_event = {
             "domainMemberships": [],
             "copyTagsToSnapshot": True,
             "monitoringInterval": 0,
-            "dBInstanceArn": "arn:aws:rds:us-east-1:164406550669:db:af-auto-tag-test",
+            "dBInstanceArn": "arn:aws:rds:us-east-1:16xxxxxxxxx9:db:af-auto-tag-test",
             "iAMDatabaseAuthenticationEnabled": False,
             "performanceInsightsEnabled": True,
-            "performanceInsightsKMSKeyId": "arn:aws:kms:us-east-1:164406550669:key/0dcbc123-2895",
+            "performanceInsightsKMSKeyId": "arn:aws:kms:us-east-1:16xxxxxxxxx9:key/0dcbc123-2895",
             "performanceInsightsRetentionPeriod": 7,
             "deletionProtection": False,
             "associatedRoles": [],

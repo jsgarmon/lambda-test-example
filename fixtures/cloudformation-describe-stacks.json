@@ -1,7 +1,7 @@
 {
   "Stacks": [
     {
-      "StackId": "arn:aws:cloudformation:us-east-1:164406550669:stack/portals-fe-int2-es/16cc8000-f0f7-11e9-85d9-1230a5204572",
+      "StackId": "arn:aws:cloudformation:us-east-1:16xxxxxxxxx9:stack/portals-fe-int2-es/16cc8000-f0f7-11e9-85d9-1230a5204572",
       "StackName": "portals-fe-int2-es",
       "Description": "Elasticsearch Stack (v1.3)",
       "CreationTime": "2019-10-17 15:59:24.216000+00:00",
@@ -26,7 +26,7 @@
         },
         {
           "OutputKey": "DomainArn",
-          "OutputValue": "arn:aws:es:us-east-1:164406550669:domain/portals-fe-int2-es",
+          "OutputValue": "arn:aws:es:us-east-1:16xxxxxxxxx9:domain/portals-fe-int2-es",
           "Description": "The Amazon Resource Name (ARN) of the domain"
         }
       ],
