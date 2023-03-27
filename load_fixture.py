@@ -2,6 +2,7 @@ import os
 import json
 
 
+
 def load_fixture(filename):
     path = os.path.join("./tests/fixtures", filename)
 
